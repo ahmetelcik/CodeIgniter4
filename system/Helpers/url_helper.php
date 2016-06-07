@@ -114,7 +114,7 @@ if (! function_exists('current_url'))
 	 *
 	 * @return	string
 	 */
-	function current_url(bool $returnObject = false)
+	function current_url(bool $returnObject = false): string
 	{
 		return $returnObject === true
 			? \CodeIgniter\Services::request()->uri

@@ -354,7 +354,7 @@ class Security
 	 *
 	 * @return string
 	 */
-	public function sanitizeFilename($str, $relative_path = false)
+	public function sanitizeFilename(string $str, $relative_path = false)
 	{
 		$bad = $this->filenameBadChars;
 

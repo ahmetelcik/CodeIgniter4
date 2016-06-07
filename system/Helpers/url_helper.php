@@ -149,7 +149,7 @@ if (! function_exists('index_page'))
 	 *
 	 * @return	string
 	 */
-	function index_page()
+	function index_page(): string
 	{
 		$config = new \Config\App();
 

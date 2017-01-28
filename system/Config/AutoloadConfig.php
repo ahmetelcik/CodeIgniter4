@@ -181,7 +181,7 @@ class AutoloadConfig
 			'CodeIgniter\View\Cell'                         => BASEPATH.'View/Cell.php',
 			'Zend\Escaper\Escaper'                          => BASEPATH.'ThirdParty/ZendEscaper/Escaper.php',
 			'CodeIgniter\Log\TestLogger'                    => BASEPATH.'../tests/_support/Log/TestLogger.php',
-		    'CIDatabaseTestCase'                            => BASEPATH.'../tests/_support/CIDatabaseTestCase.php'
+		    	'CIDatabaseTestCase'                            => BASEPATH.'../tests/_support/CIDatabaseTestCase.php'
 		];
 	}
 
